@@ -1,5 +1,7 @@
 <h1>Listing things</h1>
 
+<%= paginate @things %>
+
 <table>
   <tr>
     <th>Name</th>
@@ -17,6 +19,8 @@
   </tr>
 <% end %>
 </table>
+
+<%= paginate @things %>
 
 <br />
 
